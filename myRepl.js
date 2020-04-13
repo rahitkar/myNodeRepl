@@ -6,6 +6,6 @@ const state = {};
 util.inspect.styles.undefined = "red";
 util.inspect.styles.null = "red";
 
-const myRepl = repl.start("@rahit> ");
+const myRepl = repl.start(`@${process.env.USER_NAME || 'node'}> `);
 
 Object.assign(myRepl.context, state);
