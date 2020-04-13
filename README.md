@@ -8,4 +8,4 @@ cd ~;git clone https://github.com/rahitkar/myNodeRepl.git
 
 then run this command 
  
-USER_NAME="kar" node ~/myNodeRepl/myRepl.js
+USER_NAME="edit your name here" node ~/myNodeRepl/myRepl.js
